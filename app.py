@@ -11,6 +11,6 @@ url_farmashop = "https://stock-farmashop-pjud6onrpoukxpnvl4tptj.streamlit.app/?t
 url_distribuidores = "https://distribuidores-interior-cmwcyghkovuyfluwcdmzt6.streamlit.app/?token=LG-DirectivosVIP"
 
 # Botones de acceso directo ordenados verticalmente
-st.link_button("🛒 Ingresar a GDU", url_gdu, use_container_width=True)
-st.link_button("💊 Ingresar a FARMASHOP", url_farmashop, use_container_width=True)
+st.link_button("🛒 Ingresar al Panel de GDU", url_gdu, use_container_width=True)
+st.link_button("💊 Ingresar al Panel de FARMASHOP", url_farmashop, use_container_width=True)
 st.link_button("🚚 Ingresar al Panel de DISTRIBUIDORES", url_distribuidores, use_container_width=True)
